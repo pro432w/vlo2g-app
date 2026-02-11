@@ -1,0 +1,13 @@
+{
+  "name": "vlo2g-app",
+  "scripts": {
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "@cloudflare/workers-types": "^4.20240208.0"
+  }
+}
